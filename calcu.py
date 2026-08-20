@@ -17,13 +17,13 @@ def calculadora():
 			primeiro = float(input("Digite o primeiro número: "))
 			segundo = float(input("Digite o segundo número: "))
 
-		if operacao == "+":
+		  if operacao == "+":
 				resultado = primeiro + segundo
-		elif operacao == "-":
+		  elif operacao == "-":
 				resultado = primeiro - segundo
-		elif operacao == "*":
+		  elif operacao == "*":
 				resultado = primeiro * segundo
-		else:
+		  else:
 				if segundo == 0:
 					print("Não é possível dividir por zero.")
 					continue
